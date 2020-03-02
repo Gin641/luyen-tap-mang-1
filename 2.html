@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt 2</title>
+</head>
+<body>
+<script>
+    let x = [5, 12, 16, 4, 6, 23, 1, 2, 20, 69];
+    let max = '';
+    let index = '';
+    for (let i = 1; i < x.length; i++){
+        if (x[i] > 10){
+            max += x[i];
+            index += i;
+            max += ",";
+            index += ",";
+        }
+    }
+    document.write("số lớn nhất là " + max + " ở vị trí " + index + " trong mảng");
+</script>
+</body>
+</html>
